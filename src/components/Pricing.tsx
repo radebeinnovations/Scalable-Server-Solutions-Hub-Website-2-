@@ -2,6 +2,10 @@
 
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+<<<<<<< HEAD
+import Link from "next/link";
+=======
+>>>>>>> 89f9e1030ac04799351439139ca174b175edbafb
 
 const plans = [
   {
@@ -65,12 +69,26 @@ export default function Pricing() {
                 ))}
               </ul>
 
+<<<<<<< HEAD
+              <Link 
+                href="#contact"
+                className={cn(
+                  "w-full py-4 text-[10px] font-black uppercase tracking-[0.2em] transition-all text-center",
+                  plan.featured 
+                    ? "bg-primary text-black hover:bg-white hover:scale-[1.02] shadow-[0_0_20px_rgba(34,197,94,0.3)]" 
+                    : "bg-white/5 text-white border border-white/10 hover:border-primary hover:text-primary hover:bg-primary/5"
+                )}
+              >
+                Select Plan
+              </Link>
+=======
               <button className={cn(
                 "w-full py-3 text-xs font-bold uppercase tracking-widest transition-all",
                 plan.featured ? "bg-primary text-black hover:bg-green-400" : "bg-white/5 text-white hover:bg-white/10 border border-white/10"
               )}>
                 Select Plan
               </button>
+>>>>>>> 89f9e1030ac04799351439139ca174b175edbafb
             </motion.div>
           ))}
         </div>

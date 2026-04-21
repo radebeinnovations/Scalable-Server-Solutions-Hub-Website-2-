@@ -2,6 +2,10 @@
 
 import { motion } from "framer-motion";
 import { Terminal, Activity, Zap } from "lucide-react";
+<<<<<<< HEAD
+import Link from "next/link";
+=======
+>>>>>>> 89f9e1030ac04799351439139ca174b175edbafb
 
 export default function Hero() {
   return (
@@ -38,9 +42,18 @@ export default function Hero() {
           </p>
           
           <div className="flex gap-4">
+<<<<<<< HEAD
+            <Link 
+              href="#contact"
+              className="px-6 py-3 bg-primary text-black font-bold text-xs uppercase tracking-widest hover:bg-green-400 transition-colors text-center inline-block"
+            >
+              Get Started
+            </Link>
+=======
             <button className="px-6 py-3 bg-primary text-black font-bold text-xs uppercase tracking-widest hover:bg-green-400 transition-colors">
               Get Started
             </button>
+>>>>>>> 89f9e1030ac04799351439139ca174b175edbafb
             <button className="px-6 py-3 border border-white/10 text-white font-bold text-xs uppercase tracking-widest hover:bg-white/5 transition-colors flex items-center gap-2">
               <Terminal size={14} /> Documentation
             </button>
