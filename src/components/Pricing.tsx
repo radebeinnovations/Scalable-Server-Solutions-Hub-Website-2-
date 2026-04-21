@@ -2,10 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
-<<<<<<< HEAD
 import Link from "next/link";
-=======
->>>>>>> 89f9e1030ac04799351439139ca174b175edbafb
 
 const plans = [
   {
@@ -69,7 +66,6 @@ export default function Pricing() {
                 ))}
               </ul>
 
-<<<<<<< HEAD
               <Link 
                 href="#contact"
                 className={cn(
@@ -81,14 +77,6 @@ export default function Pricing() {
               >
                 Select Plan
               </Link>
-=======
-              <button className={cn(
-                "w-full py-3 text-xs font-bold uppercase tracking-widest transition-all",
-                plan.featured ? "bg-primary text-black hover:bg-green-400" : "bg-white/5 text-white hover:bg-white/10 border border-white/10"
-              )}>
-                Select Plan
-              </button>
->>>>>>> 89f9e1030ac04799351439139ca174b175edbafb
             </motion.div>
           ))}
         </div>
